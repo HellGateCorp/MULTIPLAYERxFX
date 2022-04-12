@@ -96,7 +96,7 @@ public class FXMLController {
 			buttonsOn(event);
 	}
 	
-	// Methode für die Aktivierung der Steuerungseinheit
+	//Methode für die Aktivierung der Steuerungseinheit
 	@FXML protected void buttonsOn(ActionEvent event) {
 		play.setDisable(false);
 		pause.setDisable(false);
